@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="updateLocationPane" prefHeight="684.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.updateLocationController">
+    <children>
+        <Label layoutX="251.0" layoutY="27.0" prefHeight="53.0" prefWidth="286.0" text="Modifier une Location" AnchorPane.bottomAnchor="604.0" AnchorPane.leftAnchor="251.0" AnchorPane.rightAnchor="274.0" AnchorPane.topAnchor="27.0">
+            <font>
+                <Font name="Cambria Bold" size="26.0" />
+            </font>
+        </Label>
+        <VBox layoutX="193.0" layoutY="117.0" prefHeight="529.0" prefWidth="442.0">
+            <children>
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="122.0" styleClass="label-ajout" stylesheets="@style.css" text="Nom :" />
+                        <Pane prefHeight="111.0" prefWidth="74.0" />
+                        <TextField fx:id="txtNom" prefHeight="29.0" prefWidth="232.0" promptText="Nom" styleClass="textfield" stylesheets="@style.css">
+                            <font>
+                                <Font name="Cambria" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="31.0" prefWidth="442.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="125.0" styleClass="label-ajout" stylesheets="@style.css" text="Prénom :" />
+                        <Pane prefHeight="54.0" prefWidth="72.0" />
+                        <TextField fx:id="txtPrenom" prefHeight="29.0" prefWidth="232.0" promptText="Prenom" styleClass="textfield" stylesheets="@style.css" />
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="115.0" styleClass="label-ajout" stylesheets="@style.css" text="Mail :" />
+                        <Pane prefHeight="34.0" prefWidth="82.0" />
+                        <TextField fx:id="txtMail" prefHeight="29.0" prefWidth="232.0" promptText="Mail" styleClass="textfield" stylesheets="@style.css">
+                            <font>
+                                <Font name="Cambria" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="134.0" styleClass="label-ajout" stylesheets="@style.css" text="Mobile :" />
+                        <Pane prefHeight="34.0" prefWidth="64.0" />
+                        <TextField fx:id="txtMobile" prefHeight="29.0" prefWidth="232.0" promptText="Mobile" styleClass="textfield" stylesheets="@style.css">
+                            <font>
+                                <Font name="Cambria" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="134.0" styleClass="label-ajout" stylesheets="@style.css" text="Adresse :" />
+                        <Pane prefHeight="34.0" prefWidth="64.0" />
+                        <TextField fx:id="txtAdresse" prefHeight="29.0" prefWidth="232.0" promptText="Adresse" styleClass="textfield" stylesheets="@style.css">
+                            <font>
+                                <Font name="Cambria" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="134.0" styleClass="label-ajout" stylesheets="@style.css" text="Date Depot :" />
+                        <Pane prefHeight="34.0" prefWidth="64.0" />
+                        <DatePicker fx:id="txtDateDepot" prefHeight="29.0" prefWidth="232.0" promptText="Date Depot" styleClass="textfield" stylesheets="@style.css" />
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="134.0" styleClass="label-ajout" stylesheets="@style.css" text="Num CIN :" />
+                        <Pane prefHeight="34.0" prefWidth="64.0" />
+                        <TextField fx:id="txtCIN" prefHeight="29.0" prefWidth="232.0" promptText="CIN" styleClass="textfield" stylesheets="@style.css">
+                            <font>
+                                <Font name="Cambria" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="134.0" styleClass="label-ajout" stylesheets="@style.css" text="Prix :" />
+                        <Pane prefHeight="34.0" prefWidth="64.0" />
+                        <TextField fx:id="txtPrix" prefHeight="29.0" prefWidth="232.0" promptText="Prix" styleClass="textfield" stylesheets="@style.css">
+                            <font>
+                                <Font name="Cambria" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="134.0" styleClass="label-ajout" stylesheets="@style.css" text="Permis :" />
+                        <Pane prefHeight="34.0" prefWidth="64.0" />
+                        <TextField fx:id="txtPermis" prefHeight="29.0" prefWidth="232.0" promptText="Permis de Conduite" styleClass="textfield" stylesheets="@style.css">
+                            <font>
+                                <Font name="Cambria" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <Pane prefHeight="15.0" prefWidth="382.0" />
+                <HBox prefHeight="34.0" prefWidth="390.0">
+                    <children>
+                        <Label prefHeight="31.0" prefWidth="134.0" styleClass="label-ajout" stylesheets="@style.css" text="Chauffeur :" />
+                        <Pane prefHeight="34.0" prefWidth="64.0" />
+                        <TextField fx:id="txtChauffeur" prefHeight="29.0" prefWidth="232.0" promptText="Chauffeur" styleClass="textfield" stylesheets="@style.css">
+                            <font>
+                                <Font name="Cambria" size="13.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <Pane prefHeight="62.0" prefWidth="442.0" />
+                <HBox prefHeight="34.0" prefWidth="220.0">
+                    <children>
+                        <Pane prefHeight="34.0" prefWidth="39.0" />
+                        <Button fx:id="btnClearLocation" mnemonicParsing="false" onAction="#clearFieldsLocation" prefHeight="34.0" prefWidth="161.0" styleClass="btn" stylesheets="@style.css" text="Annuler" />
+                        <Pane prefHeight="34.0" prefWidth="58.0" />
+                        <Button fx:id="btnUpdateLocation" mnemonicParsing="false" onAction="#UpdateLocation" prefHeight="34.0" prefWidth="161.0" styleClass="btn" stylesheets="@style.css" text="Modifier" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
